@@ -1,0 +1,84 @@
+.bg2 {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+    url("/images/jeep3.jpg");
+  height: 120vh;
+  background-attachment: fixed;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ Img {
+  width: auto;
+  height: 225px;
+  max-height: 225px;
+  object-fit: cover;
+}
+
+h1 {
+  font-size: 60px !important ;
+  padding-top: 140px;
+  font-family: cursive;
+}
+.back {
+  background-color: rgba(238, 238, 238, 0.342) ;
+}
+
+
+.card {
+  border: none;
+  justify-content: center ;
+  text-align-last: center;
+  align-items: center ;
+}
+
+
+.cardback {
+  background-color: rgb(192, 191, 191) ;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.glow {
+  padding-top:300px ;
+  font-size: 10px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+.glowa {
+  padding-top:250px ;
+  font-size: 10px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+.glowaa {
+  padding-top:250px ;
+  font-size: 10px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ffffff,
+      0 0 40px #ffffff, 0 0 50px #ffffff, 0 0 60px #ffffff, 0 0 70px #e60073;
+  }
+
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6,
+      0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
